@@ -18,15 +18,14 @@
  * @return {boolean}
  */
 var isBalanced = function (root) {
-    // 记录二叉树是否平衡
+    // 記錄binarytree是否平衡
     let flag = true;
     const maxDepth = (root) => {
         if (root == null) return 0;
-        // 提前返回
         if (!flag) return;
         let leftMaxDepth = maxDepth(root.left);
         let rightMaxDepth = maxDepth(root.right);
-        // 如果左右最大深度大于 1，就不是平衡二叉树
+        // 左右最大深度 > 1，就不是
         if (Math.abs(rightMaxDepth - leftMaxDepth) > 1) {
             flag = false;
         }
