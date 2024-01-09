@@ -17,8 +17,15 @@
  * @param {ListNode} head
  * @return {boolean}
  */
-var hasCycle = function(head) {
-    
+var hasCycle = function (head) {
+  let visitedList = [];
+
+  while (head !== null) {
+    visitedList.push(head);
+    head = head.next;
+    if (visitedList.includes(head)) return true;
+  }
+
+  return false;
 };
 // @lc code=end
-
