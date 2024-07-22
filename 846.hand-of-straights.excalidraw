@@ -1,0 +1,48 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "type": "text",
+      "version": 384,
+      "versionNonce": 1437009710,
+      "isDeleted": false,
+      "id": "DBs61rdyJY491u_6JiY2J",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 404.1171875,
+      "y": 194.00558035714266,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 492.1875,
+      "height": 1080,
+      "seed": 2025674089,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1721624679725,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 3,
+      "text": "Result: true\ncards = [1,2,3,6,2,3,4,7,8], groupSize = 3\n\n// Sort\ncards = [1,2,2,3,3,4,6,7,8]\n\n// Count card (Card : Counts)\ncountMap = { 1 : 1,\n             2 : 2,\n             3 : 2,\n             4 : 1,\n             6 : 1,\n             7 : 1,\n             8 : 1 }\n\n// card = 1\ncountMap = { 1 : 0,\n             2 : 1,\n             3 : 1,\n             4 : 1,\n             6 : 1,\n             7 : 1,\n             8 : 1 }\n\n// card = 2\ncountMap = { 1 : 0,\n             2 : 0,\n             3 : 0,\n             4 : 0,\n             6 : 1,\n             7 : 1,\n             8 : 1 }\n\n// card = 2, skip\n// card = 3, skip\n// card = 4, skip\n\n// card = 6\ncountMap = { 1 : 0,\n             2 : 0,\n             3 : 0,\n             4 : 0,\n             6 : 0,\n             7 : 0,\n             8 : 0 }",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Result: true\ncards = [1,2,3,6,2,3,4,7,8], groupSize = 3\n\n// Sort\ncards = [1,2,2,3,3,4,6,7,8]\n\n// Count card (Card : Counts)\ncountMap = { 1 : 1,\n             2 : 2,\n             3 : 2,\n             4 : 1,\n             6 : 1,\n             7 : 1,\n             8 : 1 }\n\n// card = 1\ncountMap = { 1 : 0,\n             2 : 1,\n             3 : 1,\n             4 : 1,\n             6 : 1,\n             7 : 1,\n             8 : 1 }\n\n// card = 2\ncountMap = { 1 : 0,\n             2 : 0,\n             3 : 0,\n             4 : 0,\n             6 : 1,\n             7 : 1,\n             8 : 1 }\n\n// card = 2, skip\n// card = 3, skip\n// card = 4, skip\n\n// card = 6\ncountMap = { 1 : 0,\n             2 : 0,\n             3 : 0,\n             4 : 0,\n             6 : 0,\n             7 : 0,\n             8 : 0 }",
+      "lineHeight": 1.2,
+      "baseline": 1076
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
